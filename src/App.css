@@ -1,38 +1,429 @@
-.App {
+.navbar {
+  margin-top: 10px;
+  display: flex;
+}
+.home_image {
+  width: 180px;
+  margin-left: 6.5%;
+}
+
+.navbar-flex-div-span {
+  margin-top: 3%;
+}
+
+.navbar-spans {
+  margin-left: 35px;
+}
+
+.right-side {
+  margin-left: 23%;
+}
+
+.discord-img {
+  width: 30px;
+  height: 30px;
+  margin-top: 10px;
+}
+
+
+.twitter-img {
+  width: 30px;
+  height: 25px;
+  margin-left: 30px;
+}
+
+.linkedin-img {
+  width: 30px;
+  height: 25px;
+  margin-left: 30px;
+}
+
+.dashboard-button, .learn-more, .card-button, .fifth-card-button, .seventh-button, .subscribe-button {
+  float: right;
+  margin-left: 40px;
+  background-color: rgba(69,68,73,255);
+  border-radius: 10px;
+  padding: 10px 40px;
+  margin-top: 7px;
   text-align: center;
+  color: white;
+  cursor: pointer;
+}
+.second-bit {
+  display: flex;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.bold-text {
+  margin-top: 150px;
+  margin-left: 6.5%;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.first-line {
+  display: flex;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.second-line {
+  margin-top: -13%;
+}
+
+.third-line {
+  margin-top: -7%;
+}
+
+.qube, .qube-rest, .qube-second, .qube-third, .bold-text-work {
+  color: rgba(69,68,73,255);
+  font-size: 3rem;
+  font-weight: 700;
+}
+
+.qube-rest {
+  margin-left: .6rem;
+  color: rgba(5,40,60,255);
+}
+
+.qube-second, .qube-third {
+  color: rgba(5,40,60,255);
+}
+
+.text-after-bold {
+  margin-top: -4%;
+  color: rgba(115,116,117,255);
+  padding-right: 25%;
+}
+
+.learn-more {
+  float: left;
+  margin-left: -5px;
+}
+
+.empty-space {
+  background-color: rgba(240,241,246,0.3);
+  width: 35%;
+  height: 350px;
+  border-radius: 15px;
+  margin-top: 11%;
+  padding-left: 20px;
+  border: 2px solid rgba(238,239,243,255);
+}
+
+.third-bit {
+  display: flex;
+}
+
+.first-cube, .fifth-bg-cube, .sixth-bit-background {
+  margin-left: 67%;
+  margin-top: 5%;
+  width: 500px;
+  position: absolute;
+}
+
+.work-with-us, .stake-with-us, .invest-with-us, .what-is-staking, .get-in-touch {
+  background-color: rgba(240,241,246,0.7);
+  backdrop-filter: blur(5px);
+  width: 80%;
+  height: 550px;
+  border-radius: 15px;
+  z-index: 1;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 20%;
+}
+
+.bold-text-work {
+  text-align: center;
+  margin-top: 2%;
+  font-size: 2.8rem;
+}
+
+.work-bottom-line, .work-bottom-bottom-line {
+  text-align: center;
+  margin-top: 1%;
+  font-weight: 500;
+  color: rgba(5,40,60,255);
+}
+
+.work-cards {
+  display: flex;
+  justify-content: space-around;
+}
+
+.strategic-partnership, .advisory-services, .influencer-network {
+  width: 330px;
+  height: 250px;
+  background-color: white;
+  margin-top: 7%;
+  border-radius: 5px;
+  border: 2px solid rgba(238,239,243,255);
+  box-shadow: 0px 0px 10px 3px rgba(230,234,245,255);
+}
+
+.first-position, .first-position-as {
+  display: flex;
+  margin-left: 40%;
+  margin-top: 8%;
+}
+
+.solid-color-strategic, .solid-color-advisory {
+  background-color: rgba(69,68,73,255);
+  width: 45px;
+  height: 60px;
+  border-radius: 7px;
+  position: absolute;
+}
+
+.logo-strategic, .logo-advisory {
+  width: 55px;
+  height: 40px;
+  background-color: rgba(240,241,246,0.7);
+  backdrop-filter: blur(5px);
+  border-radius: 7px;
+  margin-left: 7px;
+  margin-top: 16px;
+}
+
+.logo-logo-hand, .logo-logo-advisory {
+  width: 45px;
+  margin-left: 5px;
+}
+
+.second-position, .second-position-as, .second-position-net {
+  text-align: center;
+  margin-top: 10%;
+  font-size: 20px;
+  color: rgba(69,68,73,255);
+  font-weight: 500;
+}
+
+.third-position, .third-position-as, .third-position-net {
+  text-align: center;
+  font-size: 14px;
+  margin-top: 16px;
+}
+
+.third-pos-text {
+  padding: 0px 20px;
+  color: rgba(5,40,60,255)
+}
+
+.logo-advisory {
+  margin-left: -7px;
+}
+
+.solid-color-advisory {
+  width: 60px;
+  height: 45px;
+  margin-top: 7px;
+  background-color: rgba(249,122,29,255);
+}
+
+.second-position-as {
+  color: rgba(249,122,29,255);
+}
+
+.logo-logo-advisory {
+  margin-top: -3px;
+}
+
+.second-position-net {
+  margin-top: 34%;
+}
+
+.fourth-bit-background {
+  width: 300px;
+  position: absolute;
+  margin-top: -7%;
+  margin-left: 2%;
+}
+
+.stake-with-us {
+  margin-top: 16%;
+}
+.work-bottom-bottom-line {
+  margin-top: -0.01%;
+}
+
+.crypto-cards-container {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 4%;
+}
+
+.crypto-card {
+  width: 250px;
+  height: 150px;
+  background-color: white;
+  border-radius: 15px;
+}
+
+.single-card-first {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 5%;
+}
+
+.card-logo {
+  width: 65px;
+  border-radius: 15px;
+}
+
+.token-name {
+  color: rgba(96,97,98,255);
+}
+.token-percent {
+  color: rgba(18,50,67,255);
+  font-size: 30px;
+  font-weight: 750;
+}
+
+.card-button {
+  float: none;
+  margin-left: 4%;
+  margin-right: 4%;
+  margin-top: 20px;
+}
+
+.fifth-bg-cube {
+  margin-top: -20%;
+  z-index: -1;
+}
+
+.fifth-logo {
+  width: 150px;
+  margin-left: -35px;
+  margin-bottom: -10px;
+}
+
+.fifth-card-button {
+  float: none;
+  margin-top: 40px;
+  margin-left: 40%;
+  margin-right: 40%;
+
+}
+
+.sixth-bit-background {
+  margin-left: 0;
+  margin-top: -10%;
+  z-index: -1;
+}
+
+.what-is-staking, .invest-with-us {
+  margin-top: 16%;
+}
+
+.long-divs-container {
   display: flex;
   flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  margin-top: 2%;
 }
 
-.App-link {
-  color: #61dafb;
+.long-divs {
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+  height: 50px;
+  background-color: white;
+  margin-top: 10px;
+  border-radius: 7px;
+  border: 2px solid rgba(238,239,243,255);
+  box-shadow: 0px 0px 10px 3px rgba(230,234,245,255);
+  display: flex;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.text-long-div {
+  margin-top: auto;
+  margin-bottom: auto ;
+  margin-left: 4%;
+}
+
+.right-arrow {
+  width: 25px;
+  height: 25px;
+  align-self: center;
+  margin-left: auto;
+}
+
+.get-in-touch {
+  margin-top: 16%;
+}
+
+.last-first {
+  display: flex;
+  justify-content: space-around;
+  padding-top: 8%;
+}
+.last-first-right {
+  display: flex;
+  flex-direction: column;
+  margin-top: -20px;
+}
+
+.form-content, .form-content-wide, .email {
+  width: 550px;
+  height: 40px;
+  margin-top: 12px;
+  background-color: white;
+  border-radius: 5px;
+}
+
+.form-content-wide {
+  height: 100px;
+}
+
+.form-text {
+  margin-top: 10.5px;
+  margin-left: 9px;
+  font-size: smaller;
+  color: rgba(134,144,154,255);
+}
+
+.seventh-button {
+  margin-left: 0;
+  margin-right: 60%;
+  margin-top: 15px;
+}
+
+.last-bottom {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 30px;
+}
+.home-image-bottom {
+  width: 120px;
+}
+
+.last-text {
+  font-size: 13px;
+  font-weight: 500;
+}
+
+.heading {
+  font-weight: 500;
+  margin-bottom: 15px;
+}
+.list {
+  font-size: 12px;
+  font-weight: 500;
+  margin-bottom: 10px;
+}
+
+.last-big-text {
+  margin-top: 3%;
+  font-size: 15px;
+  font-weight: 500;
+}
+
+.newsletter {
+  font-size: 20px;
+  font-weight: 500;
+}
+.email {
+  width: 450px;
+}
+
+.subscribe-button {
+  float: none;
+  margin-left: auto;
+  margin-right: 50%;
+  margin-top: 15px;
 }
